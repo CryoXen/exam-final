@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: patients-api
+  security:
+    user:
+      name: admin
+      password: admin
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/examen
+    username: root
+    password:
+
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate.ddl-auto: update
